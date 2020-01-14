@@ -4,11 +4,11 @@
 def findPosition(k, n): 
 	f1 = 0
 	f2 = 1
-	i =2; 
+	i =2 
 	while i!=0: 
-		f3 = f1 + f2; 
-		f1 = f2; 
-		f2 = f3; 
+		f3 = f1 + f2 
+		f1 = f2 
+		f2 = f3 
 
 		if f2%k == 0: 
 			return n*i 
@@ -19,9 +19,9 @@ def findPosition(k, n):
 
 
 # Multiple no. 
-n = 5; 
+n = 518 
 # Number of whose multiple we are finding 
-k = 4; 
+k = 4 
 
 print("Position of n\'th multiple of k in"
 				"Fibonacci Seires is", findPosition(k,n)); 
